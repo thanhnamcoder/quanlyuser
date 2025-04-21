@@ -1,0 +1,57 @@
+
+* {
+    font-family: "Tahoma", sans-serif;
+    font-size: 13px;
+}
+
+QWidget {
+    background-color: #FFF3E0;
+    color: #5D4037;
+}
+
+QTabWidget::pane {
+    border: 1px solid #FFCCBC;
+    background: #FFE0B2;
+}
+QTabBar::tab {
+    background: #FFAB91;
+    color: #5D4037;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+QTabBar::tab:selected {
+    background: #FF7043;
+}
+
+/* Toolbar Buttons */
+QPushButton {
+    background-color: #FFAB91;
+    border: 1px solid #FF7043;
+    color: #4E342E;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #FF7043;
+}
+QPushButton:pressed {
+    background-color: #D84315;
+    color: white;
+}
+
+/* Inputs */
+QLineEdit, QComboBox {
+    background-color: #FFE0B2;
+    border: 1px solid #FFAB91;
+    border-radius: 5px;
+    padding: 4px;
+    color: #5D4037;
+}
+QComboBox QAbstractItemView {
+    background-color: #FFE0B2;
+    selection-background-color: #FF7043;
+}
+QMenu::item:selected {
+    background-color: #D6EAF8;
+    color: #2C3E50;
+}

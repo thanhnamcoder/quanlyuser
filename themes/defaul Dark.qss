@@ -1,0 +1,144 @@
+QWidget {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+QPushButton {
+    background-color: #3c8dbc;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #2e7bb4;
+}
+
+QPushButton:pressed {
+    background-color: #215a85;
+    color: #ffffff;
+}
+
+QLineEdit, QComboBox {
+    background-color: #2b2b2b;
+    border: 2px solid #555;
+    padding: 8px;
+    border-radius: 6px;
+    color: #f0f0f0;
+    selection-background-color: #3c8dbc;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 2px solid #3c8dbc;
+}
+
+QTabWidget::pane {
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+QTabBar::tab {
+    background: #2b2b2b;
+    padding: 8px 16px;
+    margin-right: 2px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #dcdcdc;
+}
+
+QTabBar::tab:selected {
+    background: #3c8dbc;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    padding: 6px;
+    border: 1px solid #555;
+    font-weight: bold;
+}
+
+QTableView {
+    gridline-color: #444;
+    selection-background-color: #3c8dbc;
+    selection-color: #ffffff;
+    alternate-background-color: #2a2a2a;
+    background-color: #1e1e1e;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #2b2b2b;
+    width: 12px;
+    margin: 16px 0 16px 0;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #5e5e5e;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #7a7a7a;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QMenuBar {
+    background-color: #2b2b2b;
+    border-bottom: 1px solid #444;
+}
+
+QMenuBar::item {
+    spacing: 8px;
+    padding: 6px 12px;
+    background: transparent;
+    color: #dcdcdc;
+}
+
+QMenuBar::item:selected {
+    background: #3c8dbc;
+    border-radius: 4px;
+    color: white;
+}
+
+QMenu {
+    background-color: #2b2b2b;
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+QMenu::item {
+    padding: 6px 30px 6px 20px;
+    color: #f0f0f0;
+}
+
+QMenu::item:selected {
+    background-color: #3c8dbc;
+    color: white;
+}
+
+QToolTip {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #3c3c3c;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* Tab Navigation */
+QTabBar QToolButton {
+    background-color: #2b2b2b;
+    border: none;
+    border-radius: 6px;
+    color: #dcdcdc;
+}
